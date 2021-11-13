@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 1.5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #7A8288;
+}
+::-webkit-scrollbar-corner {
+    background-color: #7A8288;
+}
+
+.btn {
+   padding: 0;
+   background-color: transparent;
+   border: 0;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.btn_btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
