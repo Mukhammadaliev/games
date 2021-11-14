@@ -11,7 +11,7 @@ class FetchSnk {
   fetchSneakers = async (name, query) => {
 
 
-    await fetch(`http://localhost:8000/sneakers?_sort=${name}&q=${query}`)
+    await fetch(`/sneakers?_sort=${name}&q=${query}`)
     .then(response => response.json())
     .then(data => {
       this.sneakers = data
